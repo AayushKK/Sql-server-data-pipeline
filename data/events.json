@@ -1,0 +1,4242 @@
+[
+  {
+    "event_id": 1,
+    "event_type": "purchase",
+    "timestamp": "2025-06-21T13:17:00Z",
+    "customer": {
+      "id": 44,
+      "name": "Nabin Adhikari"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 35.93
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 4,
+        "price": 21.78
+      }
+    ]
+  },
+  {
+    "event_id": 2,
+    "event_type": "add_to_cart",
+    "timestamp": "2025-07-20T14:06:00Z",
+    "customer": {
+      "id": 20,
+      "name": "Anita Karki"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 33.95
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 73.29
+      }
+    ]
+  },
+  {
+    "event_id": 3,
+    "event_type": "checkout",
+    "timestamp": "2026-01-25T10:28:00Z",
+    "customer": {
+      "id": 20,
+      "name": "Anita Karki"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 101.79
+      }
+    ]
+  },
+  {
+    "event_id": 4,
+    "event_type": "purchase",
+    "timestamp": "2025-10-26T23:44:00Z",
+    "customer": {
+      "id": 28,
+      "name": "Prakash Thapa"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 39.55
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 60.09
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 116.4
+      }
+    ]
+  },
+  {
+    "event_id": 5,
+    "event_type": "add_to_cart",
+    "timestamp": "2026-02-07T11:07:00Z",
+    "customer": {
+      "id": 37,
+      "name": "Laxmi Gurung"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 4,
+        "price": 37.23
+      }
+    ]
+  },
+  {
+    "event_id": 6,
+    "event_type": "add_to_cart",
+    "timestamp": "2026-02-23T21:31:00Z",
+    "customer": {
+      "id": 38,
+      "name": "Sarita Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 114.6
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 55.42
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 99.18
+      }
+    ]
+  },
+  {
+    "event_id": 7,
+    "event_type": "purchase",
+    "timestamp": "2026-05-06T18:25:00+05:45",
+    "customer": {
+      "id": 41,
+      "name": "Sarita Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 3,
+        "price": 80.75
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 13.51
+      }
+    ]
+  },
+  {
+    "event_id": 8,
+    "event_type": "checkout",
+    "timestamp": "2025-09-12T21:42:00Z",
+    "customer": {
+      "id": 35,
+      "name": "Kamala Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 17.58
+      }
+    ]
+  },
+  {
+    "event_id": 9,
+    "event_type": "add_to_cart",
+    "timestamp": "2025-09-22T07:32:00Z",
+    "customer": {
+      "id": 11,
+      "name": "Prakash Tamang"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 69.77
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 116.06
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 6.21
+      }
+    ]
+  },
+  {
+    "event_id": 10,
+    "event_type": "checkout",
+    "timestamp": "2025-01-26T15:06:00Z",
+    "customer": {
+      "id": 29,
+      "name": "Sita Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 93.82
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 44.67
+      }
+    ]
+  },
+  {
+    "event_id": 11,
+    "event_type": "add_to_cart",
+    "timestamp": "2025-12-18T14:50:00Z",
+    "customer": {
+      "id": 27,
+      "name": "Kamala Poudel"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 45.06
+      }
+    ]
+  },
+  {
+    "event_id": 12,
+    "event_type": "page_view",
+    "timestamp": "2025-02-15T22:07:00Z",
+    "customer": {
+      "id": 34,
+      "name": "Sunita Karki"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 4,
+        "price": 16.23
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 12.73
+      }
+    ]
+  },
+  {
+    "event_id": 13,
+    "event_type": "add_to_cart",
+    "timestamp": "2025-08-26T12:40:00Z",
+    "customer": {
+      "id": 22,
+      "name": "Rajesh Sharma"
+    },
+    "items": null
+  },
+  {
+    "event_id": 14,
+    "event_type": "page_view",
+    "timestamp": "2025-08-08T06:17:00+05:45",
+    "customer": {
+      "id": 12,
+      "name": "Puja Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 8.36
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 56.7
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 5.51
+      }
+    ]
+  },
+  {
+    "event_id": 15,
+    "event_type": "checkout",
+    "timestamp": "2025-07-21T14:07:00Z",
+    "customer": {
+      "id": 37,
+      "name": "Laxmi Gurung"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 47.07
+      }
+    ]
+  },
+  {
+    "event_id": 16,
+    "event_type": "purchase",
+    "timestamp": "2025-12-23T11:54:00Z",
+    "customer": {
+      "id": 43,
+      "name": "Maya Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 3,
+        "price": 73.65
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 72.51
+      }
+    ]
+  },
+  {
+    "event_id": 17,
+    "event_type": "checkout",
+    "timestamp": "2025-11-17T03:15:00Z",
+    "customer": {
+      "id": 40,
+      "name": "Suresh Shrestha"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 82.29
+      }
+    ]
+  },
+  {
+    "event_id": 18,
+    "event_type": "purchase",
+    "timestamp": "2026-03-05T19:08:00Z",
+    "customer": {
+      "id": 8,
+      "name": "Prakash Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 63.74
+      }
+    ]
+  },
+  {
+    "event_id": 19,
+    "event_type": "add_to_cart",
+    "timestamp": "2026-05-17T09:08:00Z",
+    "customer": {
+      "id": 28,
+      "name": "Prakash Thapa"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 68.81
+      }
+    ]
+  },
+  {
+    "event_id": 20,
+    "event_type": "purchase",
+    "timestamp": "2026-01-29T17:32:00Z",
+    "customer": {
+      "id": 21,
+      "name": "Kamala Poudel"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 104.54
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 4,
+        "price": 20.7
+      }
+    ]
+  },
+  {
+    "event_id": 21,
+    "event_type": "checkout",
+    "timestamp": "2025-08-14T09:02:00+05:45",
+    "customer": {
+      "id": 27,
+      "name": "Kamala Poudel"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 86.67
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 24.23
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 96.53
+      }
+    ]
+  },
+  {
+    "event_id": 22,
+    "event_type": "page_view",
+    "timestamp": "2026-01-11T17:52:00Z",
+    "customer": {
+      "id": 15,
+      "name": "Sunita Adhikari"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 94.79
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 68.22
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 35.81
+      }
+    ]
+  },
+  {
+    "event_id": 23,
+    "event_type": "page_view",
+    "timestamp": "2025-03-31T14:55:00Z",
+    "customer": {
+      "id": 49,
+      "name": "Dipak Gurung"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 118.82
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 39.24
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 4,
+        "price": 35.22
+      }
+    ]
+  },
+  {
+    "event_id": 24,
+    "event_type": "add_to_cart",
+    "timestamp": "2026-03-15T05:39:00Z",
+    "customer": {
+      "id": 50,
+      "name": "Rajesh Gurung"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 3,
+        "price": 104.02
+      }
+    ]
+  },
+  {
+    "event_id": 25,
+    "event_type": "checkout",
+    "timestamp": "2025-06-22T10:45:00Z",
+    "customer": {
+      "id": 14,
+      "name": "Rajesh Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 66.21
+      }
+    ]
+  },
+  {
+    "event_id": 26,
+    "event_type": "purchase",
+    "timestamp": "2025-11-26T07:48:00Z",
+    "customer": {
+      "id": 19,
+      "name": "Ram Adhikari"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 20.59
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 119.14
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 33.71
+      }
+    ]
+  },
+  {
+    "event_id": 27,
+    "event_type": "page_view",
+    "timestamp": "2026-01-20T14:04:00Z",
+    "customer": {
+      "id": 32,
+      "name": "Suresh Shrestha"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 3,
+        "price": 77.2
+      }
+    ]
+  },
+  {
+    "event_id": 28,
+    "event_type": "purchase",
+    "timestamp": "2026-01-02T02:50:00+05:45",
+    "customer": {
+      "id": 26,
+      "name": "Gita Poudel"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 57.29
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 71.92
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 4,
+        "price": 78.01
+      }
+    ]
+  },
+  {
+    "event_id": 29,
+    "event_type": "purchase",
+    "timestamp": "2025-05-14T18:54:00Z",
+    "customer": {
+      "id": 14,
+      "name": "Rajesh Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 35.88
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 67.94
+      }
+    ]
+  },
+  {
+    "event_id": 30,
+    "event_type": "add_to_cart",
+    "timestamp": "2026-03-15T06:44:00Z",
+    "customer": {
+      "id": 22,
+      "name": "Rajesh Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 16.45
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 19.29
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 57.5
+      }
+    ]
+  },
+  {
+    "event_id": 31,
+    "event_type": "checkout",
+    "timestamp": "2025-06-19T01:25:00Z",
+    "customer": {
+      "id": 42,
+      "name": "Nabin Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 3,
+        "price": 15.73
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 14.48
+      }
+    ]
+  },
+  {
+    "event_id": 32,
+    "event_type": "page_view",
+    "timestamp": "2026-06-16T21:28:00Z",
+    "customer": {
+      "id": 47,
+      "name": "Nabin Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 80.38
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 29.54
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 73.27
+      }
+    ]
+  },
+  {
+    "event_id": 33,
+    "event_type": "checkout",
+    "timestamp": "2025-04-15T03:20:00Z",
+    "customer": {
+      "id": 1,
+      "name": "Anita Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 118.64
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 59.94
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 15.27
+      }
+    ]
+  },
+  {
+    "event_id": 34,
+    "event_type": "page_view",
+    "timestamp": "2025-05-27T02:33:00Z",
+    "customer": {
+      "id": 20,
+      "name": "Anita Karki"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 78.78
+      }
+    ]
+  },
+  {
+    "event_id": 35,
+    "event_type": "page_view",
+    "timestamp": "2025-03-30T03:08:00+05:45",
+    "customer": {
+      "id": 40,
+      "name": "Suresh Shrestha"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 45.39
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 110.79
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 103.9
+      }
+    ]
+  },
+  {
+    "event_id": 36,
+    "event_type": "checkout",
+    "timestamp": "2025-10-19T22:01:00Z",
+    "customer": {
+      "id": 38,
+      "name": "Sarita Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 115.77
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 33.5
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 68.64
+      }
+    ]
+  },
+  {
+    "event_id": 37,
+    "event_type": "page_view",
+    "timestamp": "2025-09-04T15:40:00Z",
+    "customer": {
+      "id": 14,
+      "name": "Rajesh Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 91.0
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 95.14
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 49.38
+      }
+    ]
+  },
+  {
+    "event_id": 38,
+    "event_type": "add_to_cart",
+    "timestamp": "2026-03-07T11:34:00Z",
+    "customer": {
+      "id": 34,
+      "name": "Sunita Karki"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 20.18
+      }
+    ]
+  },
+  {
+    "event_id": 39,
+    "event_type": "checkout",
+    "timestamp": "2025-03-03T12:32:00Z",
+    "customer": {
+      "id": 49,
+      "name": "Dipak Gurung"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 72.55
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 29.81
+      }
+    ]
+  },
+  {
+    "event_id": 40,
+    "event_type": "add_to_cart",
+    "timestamp": "2025-11-14T02:32:00Z",
+    "customer": {
+      "id": 41,
+      "name": "Sarita Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 53.71
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 78.66
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 36.91
+      }
+    ]
+  },
+  {
+    "event_id": 41,
+    "event_type": "page_view",
+    "timestamp": "2026-03-21T03:29:00Z",
+    "customer": null,
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 4,
+        "price": 72.44
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 85.35
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 33.12
+      }
+    ]
+  },
+  {
+    "event_id": 42,
+    "event_type": "checkout",
+    "timestamp": "2025-05-10T23:49:00+05:45",
+    "customer": {
+      "id": 20,
+      "name": "Anita Karki"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 6.46
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 23.84
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 24.2
+      }
+    ]
+  },
+  {
+    "event_id": 43,
+    "event_type": "checkout",
+    "timestamp": "2025-10-06T16:04:00Z",
+    "customer": {
+      "id": 47,
+      "name": "Nabin Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 97.82
+      }
+    ]
+  },
+  {
+    "event_id": 44,
+    "event_type": "page_view",
+    "timestamp": "2025-09-19T03:57:00Z",
+    "customer": {
+      "id": 46,
+      "name": "Prakash Poudel"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 4,
+        "price": 57.35
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 62.46
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 47.28
+      }
+    ]
+  },
+  {
+    "event_id": 45,
+    "event_type": "purchase",
+    "timestamp": "2025-07-03T01:35:00Z",
+    "customer": {
+      "id": 15,
+      "name": "Sunita Adhikari"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 10.06
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 10.29
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 4,
+        "price": 110.83
+      }
+    ]
+  },
+  {
+    "event_id": 46,
+    "event_type": "page_view",
+    "timestamp": "2026-01-17T03:32:00Z",
+    "customer": {
+      "id": 15,
+      "name": "Sunita Adhikari"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 110.32
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 99.99
+      }
+    ]
+  },
+  {
+    "event_id": 47,
+    "event_type": "checkout",
+    "timestamp": "2025-03-12T14:55:00Z",
+    "customer": {
+      "id": 12,
+      "name": "Puja Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 114.72
+      }
+    ]
+  },
+  {
+    "event_id": 48,
+    "event_type": "add_to_cart",
+    "timestamp": "2025-11-08T23:39:00Z",
+    "customer": {
+      "id": 50,
+      "name": "Rajesh Gurung"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 68.61
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 28.08
+      }
+    ]
+  },
+  {
+    "event_id": 49,
+    "event_type": "checkout",
+    "timestamp": "2026-02-24T00:14:00+05:45",
+    "customer": {
+      "id": 30,
+      "name": "Gita Thapa"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 119.75
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 22.32
+      }
+    ]
+  },
+  {
+    "event_id": 50,
+    "event_type": "checkout",
+    "timestamp": "2025-03-03T04:45:00Z",
+    "customer": {
+      "id": 41,
+      "name": "Sarita Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 5.17
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 16.95
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 53.28
+      }
+    ]
+  },
+  {
+    "event_id": 51,
+    "event_type": "page_view",
+    "timestamp": "2026-01-17T14:47:00Z",
+    "customer": {
+      "id": 6,
+      "name": "Puja Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 85.6
+      }
+    ]
+  },
+  {
+    "event_id": 52,
+    "event_type": "page_view",
+    "timestamp": "2026-02-08T02:37:00Z",
+    "customer": {
+      "id": 38,
+      "name": "Sarita Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 78.28
+      }
+    ]
+  },
+  {
+    "event_id": 53,
+    "event_type": "add_to_cart",
+    "timestamp": "2025-08-28T02:12:00Z",
+    "customer": {
+      "id": 28,
+      "name": "Prakash Thapa"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 38.54
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 4,
+        "price": 85.58
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 57.07
+      }
+    ]
+  },
+  {
+    "event_id": 54,
+    "event_type": "purchase",
+    "timestamp": "2025-08-01T14:19:00Z",
+    "customer": {
+      "id": 50,
+      "name": "Rajesh Gurung"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 17.15
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 41.11
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 115.93
+      }
+    ]
+  },
+  {
+    "event_id": 55,
+    "event_type": "page_view",
+    "timestamp": "2025-11-08T22:44:00Z",
+    "customer": {
+      "id": 17,
+      "name": "Bikash Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 97.87
+      }
+    ]
+  },
+  {
+    "event_id": 56,
+    "event_type": "add_to_cart",
+    "timestamp": "2025-11-03T08:52:00+05:45",
+    "customer": {
+      "id": 14,
+      "name": "Rajesh Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 86.78
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 4,
+        "price": 64.05
+      }
+    ]
+  },
+  {
+    "event_id": 57,
+    "event_type": "add_to_cart",
+    "timestamp": "2025-03-05T07:08:00Z",
+    "customer": {
+      "id": 2,
+      "name": "Rajesh Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 15.89
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 18.97
+      }
+    ]
+  },
+  {
+    "event_id": 58,
+    "event_type": "add_to_cart",
+    "timestamp": "2025-07-22T20:28:00Z",
+    "customer": {
+      "id": 26,
+      "name": "Gita Poudel"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 110.5
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 119.67
+      }
+    ]
+  },
+  {
+    "event_id": 59,
+    "event_type": "purchase",
+    "timestamp": "2026-03-20T23:25:00Z",
+    "customer": {
+      "id": 6,
+      "name": "Puja Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 113.36
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 111.28
+      }
+    ]
+  },
+  {
+    "event_id": 60,
+    "event_type": "add_to_cart",
+    "timestamp": "2025-06-02T01:39:00Z",
+    "customer": {
+      "id": 2,
+      "name": "Rajesh Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 45.7
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 3,
+        "price": 37.18
+      }
+    ]
+  },
+  {
+    "event_id": 61,
+    "event_type": "PURCHASE",
+    "timestamp": "2026-01-28T04:26:00Z",
+    "customer": {
+      "id": 42,
+      "name": "Nabin Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 106.52
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 15.09
+      }
+    ]
+  },
+  {
+    "event_id": 62,
+    "event_type": "checkout",
+    "timestamp": "2026-05-30T10:24:00Z",
+    "customer": {
+      "id": 42,
+      "name": "Nabin Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 118.78
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 4,
+        "price": 67.62
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 109.96
+      }
+    ]
+  },
+  {
+    "event_id": 63,
+    "event_type": "purchase",
+    "timestamp": "2025-10-15T01:51:00+05:45",
+    "customer": {
+      "id": 12,
+      "name": "Puja Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 8.37
+      }
+    ]
+  },
+  {
+    "event_id": 64,
+    "event_type": "page_view",
+    "timestamp": "2025-09-30T17:52:00Z",
+    "customer": {
+      "id": 34,
+      "name": "Sunita Karki"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 117.01
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 80.54
+      }
+    ]
+  },
+  {
+    "event_id": 65,
+    "event_type": "checkout",
+    "timestamp": "2025-06-27T05:15:00Z",
+    "customer": {
+      "id": 49,
+      "name": "Dipak Gurung"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 45.8
+      }
+    ]
+  },
+  {
+    "event_id": 66,
+    "event_type": "page_view",
+    "timestamp": "2025-06-29T15:02:00Z",
+    "customer": {
+      "id": 48,
+      "name": "Rina Adhikari"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 85.9
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 69.76
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 67.34
+      }
+    ]
+  },
+  {
+    "event_id": 67,
+    "event_type": "add_to_cart",
+    "timestamp": "2026-05-05T00:21:00Z",
+    "customer": {
+      "id": 4,
+      "name": "Anita Tamang"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 7.29
+      }
+    ]
+  },
+  {
+    "event_id": 68,
+    "event_type": "checkout",
+    "timestamp": "2026-06-23T11:04:00Z",
+    "customer": {
+      "id": 9,
+      "name": "Manoj Poudel"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 3,
+        "price": 11.85
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 94.05
+      }
+    ]
+  },
+  {
+    "event_id": 69,
+    "event_type": "checkout",
+    "timestamp": "2025-06-28T22:35:00Z",
+    "customer": {
+      "id": 46,
+      "name": "Prakash Poudel"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 43.7
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 117.22
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 79.66
+      }
+    ]
+  },
+  {
+    "event_id": 70,
+    "event_type": "checkout",
+    "timestamp": "2025-02-03T05:38:00+05:45",
+    "customer": {
+      "id": 15,
+      "name": "Sunita Adhikari"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 48.51
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 25.44
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 4,
+        "price": 102.84
+      }
+    ]
+  },
+  {
+    "event_id": 71,
+    "event_type": "page_view",
+    "timestamp": "2025-05-25T10:47:00Z",
+    "customer": {
+      "id": 40,
+      "name": "Suresh Shrestha"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 112.72
+      }
+    ]
+  },
+  {
+    "event_id": 72,
+    "event_type": "page_view",
+    "timestamp": "2025-09-29T06:15:00Z",
+    "customer": {
+      "id": 16,
+      "name": "Nabin Shrestha"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 78.16
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 56.36
+      }
+    ]
+  },
+  {
+    "event_id": 73,
+    "event_type": "purchase",
+    "timestamp": "2026-02-28T15:56:00Z",
+    "customer": {
+      "id": 23,
+      "name": "Dipak Tamang"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 10.54
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 116.45
+      }
+    ]
+  },
+  {
+    "event_id": 74,
+    "event_type": "page_view",
+    "timestamp": "2025-11-23T08:06:00Z",
+    "customer": {
+      "id": 23,
+      "name": "Dipak Tamang"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 100.31
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 23.71
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 38.91
+      }
+    ]
+  },
+  {
+    "event_id": 75,
+    "event_type": "purchase",
+    "timestamp": "2025-04-06T10:38:00Z",
+    "customer": {
+      "id": 22,
+      "name": "Rajesh Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 89.18
+      }
+    ]
+  },
+  {
+    "event_id": 76,
+    "event_type": "page_view",
+    "timestamp": "2026-03-21T05:03:00Z",
+    "customer": {
+      "id": 46,
+      "name": "Prakash Poudel"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 74.84
+      }
+    ]
+  },
+  {
+    "event_id": 77,
+    "event_type": "checkout",
+    "timestamp": "2025-09-29T21:18:00+05:45",
+    "customer": {
+      "id": 22,
+      "name": "Rajesh Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 85.18
+      }
+    ]
+  },
+  {
+    "event_id": 78,
+    "event_type": "checkout",
+    "timestamp": "2026-05-18T04:03:00Z",
+    "customer": {
+      "id": 16,
+      "name": "Nabin Shrestha"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 4,
+        "price": 70.75
+      }
+    ]
+  },
+  {
+    "event_id": 79,
+    "event_type": "checkout",
+    "timestamp": "2025-01-27T06:10:00Z",
+    "customer": {
+      "id": 1,
+      "name": "Anita Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 99.75
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 27.96
+      }
+    ]
+  },
+  {
+    "event_id": 80,
+    "event_type": "purchase",
+    "timestamp": "2025-09-29T02:41:00Z",
+    "customer": {
+      "id": 6,
+      "name": "Puja Sharma"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 95.26
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 107.91
+      }
+    ]
+  },
+  {
+    "event_id": 81,
+    "event_type": "checkout",
+    "timestamp": "2025-09-27T07:53:00Z",
+    "customer": {
+      "id": 12,
+      "name": "Puja Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 26.46
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 55.57
+      }
+    ]
+  },
+  {
+    "event_id": 82,
+    "event_type": "add_to_cart",
+    "timestamp": "2025-12-19T17:26:00Z",
+    "customer": {
+      "id": 37,
+      "name": "Laxmi Gurung"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 14.86
+      }
+    ]
+  },
+  {
+    "event_id": 83,
+    "event_type": "add_to_cart",
+    "timestamp": "2026-05-02T18:56:00Z",
+    "customer": {
+      "id": 36,
+      "name": "Rajesh Thapa"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 116.05
+      }
+    ]
+  },
+  {
+    "event_id": 84,
+    "event_type": "add_to_cart",
+    "timestamp": "2026-04-05T05:10:00+05:45",
+    "customer": {
+      "id": 31,
+      "name": "Maya Thapa"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 4,
+        "price": 108.82
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 18.83
+      }
+    ]
+  },
+  {
+    "event_id": 85,
+    "event_type": "add_to_cart",
+    "timestamp": "2026-03-22T06:52:00Z",
+    "customer": {
+      "id": 13,
+      "name": "Dipak Poudel"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 4,
+        "price": 14.01
+      }
+    ]
+  },
+  {
+    "event_id": 86,
+    "event_type": "page_view",
+    "timestamp": "2025-10-10T16:29:00Z",
+    "customer": {
+      "id": 39,
+      "name": "Sunita Basnet"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 15.01
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 68.49
+      }
+    ]
+  },
+  {
+    "event_id": 87,
+    "event_type": "checkout",
+    "timestamp": "2025-04-14T09:55:00Z",
+    "customer": {
+      "id": 45,
+      "name": "Rajesh Thapa"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 17.94
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 70.16
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 111.37
+      }
+    ]
+  },
+  {
+    "event_id": 88,
+    "event_type": "purchase",
+    "timestamp": "2026-02-17T04:39:00Z",
+    "customer": {
+      "id": 27,
+      "name": "Kamala Poudel"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 70.78
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 24.8
+      }
+    ]
+  },
+  {
+    "event_id": 89,
+    "event_type": "checkout",
+    "timestamp": "2025-01-21T10:52:00Z",
+    "customer": {
+      "id": 3,
+      "name": "Maya Gurung"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 10.67
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 108.16
+      }
+    ]
+  },
+  {
+    "event_id": 90,
+    "event_type": "purchase",
+    "timestamp": "2026-03-30T10:17:00Z",
+    "customer": {
+      "id": 20,
+      "name": "Anita Karki"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 116.84
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 39.56
+      }
+    ]
+  },
+  {
+    "event_id": 91,
+    "event_type": "purchase",
+    "timestamp": "2025-06-12T02:19:00+05:45",
+    "customer": {
+      "id": 39,
+      "name": "Sunita Basnet"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 55.8
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 92.34
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 64.26
+      }
+    ]
+  },
+  {
+    "event_id": 92,
+    "event_type": "purchase",
+    "timestamp": "2025-07-23T08:23:00Z",
+    "customer": {
+      "id": 9,
+      "name": "Manoj Poudel"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 24.98
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 33.69
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 110.57
+      }
+    ]
+  },
+  {
+    "event_id": 93,
+    "event_type": "checkout",
+    "timestamp": "2026-05-01T18:35:00Z",
+    "customer": {
+      "id": 33,
+      "name": "Dipak Karki"
+    },
+    "items": [
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 32.82
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 25.42
+      }
+    ]
+  },
+  {
+    "event_id": 94,
+    "event_type": "add_to_cart",
+    "timestamp": "2026-01-31T01:10:00Z",
+    "customer": {
+      "id": 23,
+      "name": "Dipak Tamang"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 37.78
+      }
+    ]
+  },
+  {
+    "event_id": 95,
+    "event_type": "page_view",
+    "timestamp": "2025-06-27T19:51:00Z",
+    "customer": {
+      "id": 15,
+      "name": "Sunita Adhikari"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 35.94
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 104.43
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 4,
+        "price": 109.82
+      }
+    ]
+  },
+  {
+    "event_id": 96,
+    "event_type": "add_to_cart",
+    "timestamp": "2025-12-24T14:16:00Z",
+    "customer": {
+      "id": 15,
+      "name": "Sunita Adhikari"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 3,
+        "price": 86.97
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 4,
+        "price": 107.98
+      }
+    ]
+  },
+  {
+    "event_id": 97,
+    "event_type": "page_view",
+    "timestamp": "2025-10-17T09:43:00Z",
+    "customer": {
+      "id": 30,
+      "name": "Gita Thapa"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 72.22
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 69.57
+      }
+    ]
+  },
+  {
+    "event_id": 98,
+    "event_type": "checkout",
+    "timestamp": "2025-10-11T08:41:00+05:45",
+    "customer": {
+      "id": 31,
+      "name": "Maya Thapa"
+    },
+    "items": [
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 78.67
+      }
+    ]
+  },
+  {
+    "event_id": 99,
+    "event_type": "add_to_cart",
+    "timestamp": "2026-02-18T21:20:00Z",
+    "customer": {
+      "id": 13,
+      "name": "Dipak Poudel"
+    },
+    "items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 108.46
+      }
+    ]
+  },
+  {
+    "event_id": 100,
+    "event_type": "page_view",
+    "timestamp": "2026-03-05T12:24:00Z",
+    "customer": {
+      "id": 47,
+      "name": "Nabin Rai"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 34.83
+      }
+    ]
+  },
+  {
+    "event_id": 101,
+    "event_type": "purchase",
+    "event_time": "2025-07-05T09:06:00Z",
+    "customer": {
+      "customer_id": 38,
+      "full_name": "Sarita Rai"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 44.46
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 109.25
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 102.22
+      }
+    ]
+  },
+  {
+    "event_id": 102,
+    "event_type": "checkout",
+    "event_time": "2025-12-06T11:16:00Z",
+    "customer": {
+      "customer_id": 9,
+      "full_name": "Manoj Poudel"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 113.9
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 30.56
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 3,
+        "price": 53.35
+      }
+    ]
+  },
+  {
+    "event_id": 103,
+    "event_type": "add_to_cart",
+    "event_time": "2025-03-14T15:56:00Z",
+    "customer": {
+      "customer_id": 30,
+      "full_name": "Gita Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 104.64
+      }
+    ]
+  },
+  {
+    "event_id": 104,
+    "event_type": "checkout",
+    "event_time": "2025-06-04T04:12:00Z",
+    "customer": {
+      "customer_id": 33,
+      "full_name": "Dipak Karki"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 52.51
+      }
+    ]
+  },
+  {
+    "event_id": 105,
+    "event_type": "add_to_cart",
+    "event_time": "2025-01-05T14:17:00Z",
+    "customer": {
+      "customer_id": 27,
+      "full_name": "Kamala Poudel"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 41.38
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 61.07
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 3,
+        "price": 77.97
+      }
+    ]
+  },
+  {
+    "event_id": 106,
+    "event_type": "purchase",
+    "event_time": "2025-04-01T04:39:00Z",
+    "customer": {
+      "customer_id": 49,
+      "full_name": "Dipak Gurung"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 61.3
+      }
+    ]
+  },
+  {
+    "event_id": 107,
+    "event_type": "page_view",
+    "event_time": "2025-07-24T23:23:00Z",
+    "customer": {
+      "customer_id": 41,
+      "full_name": "Sarita Rai"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 116.01
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 9.34
+      }
+    ]
+  },
+  {
+    "event_id": 108,
+    "event_type": "checkout",
+    "event_time": "2026-01-28T16:37:00Z",
+    "customer": {
+      "customer_id": 21,
+      "full_name": "Kamala Poudel"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 82.83
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 84.76
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 19.83
+      }
+    ]
+  },
+  {
+    "event_id": 109,
+    "event_type": "checkout",
+    "event_time": "2026-04-12T23:33:00Z",
+    "customer": {
+      "customer_id": 11,
+      "full_name": "Prakash Tamang"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 114.07
+      }
+    ]
+  },
+  {
+    "event_id": 110,
+    "event_type": "add_to_cart",
+    "event_time": "2025-08-18T23:08:00Z",
+    "customer": {
+      "customer_id": 28,
+      "full_name": "Prakash Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 3,
+        "price": 119.56
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 91.26
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 7.2
+      }
+    ]
+  },
+  {
+    "event_id": 111,
+    "event_type": "checkout",
+    "event_time": "2025-02-08T12:56:00Z",
+    "customer": {
+      "customer_id": 47,
+      "full_name": "Nabin Rai"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 19.16
+      }
+    ]
+  },
+  {
+    "event_id": 112,
+    "event_type": "page_view",
+    "event_time": "2026-03-03T14:24:00Z",
+    "customer": {
+      "customer_id": 50,
+      "full_name": "Rajesh Gurung"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 73.3
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 80.16
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 84.32
+      }
+    ]
+  },
+  {
+    "event_id": 113,
+    "event_type": "checkout",
+    "event_time": "2025-04-14T21:33:00Z",
+    "customer": {
+      "customer_id": 36,
+      "full_name": "Rajesh Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 28.63
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 53.4
+      }
+    ]
+  },
+  {
+    "event_id": 114,
+    "event_type": "add_to_cart",
+    "event_time": "2025-07-24T08:53:00Z",
+    "customer": {
+      "customer_id": 40,
+      "full_name": "Suresh Shrestha"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 100.53
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 37.51
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 4,
+        "price": 27.84
+      }
+    ]
+  },
+  {
+    "event_id": 115,
+    "event_type": "page_view",
+    "event_time": "2025-01-14T21:05:00Z",
+    "customer": {
+      "customer_id": 23,
+      "full_name": "Dipak Tamang"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 23.44
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 109.69
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 31.97
+      }
+    ]
+  },
+  {
+    "event_id": 116,
+    "event_type": "purchase",
+    "event_time": "2026-04-13T09:16:00Z",
+    "customer": {
+      "customer_id": 37,
+      "full_name": "Laxmi Gurung"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 114.19
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 88.21
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 79.1
+      }
+    ]
+  },
+  {
+    "event_id": 117,
+    "event_type": "purchase",
+    "event_time": "2026-01-04T21:20:00Z",
+    "customer": {
+      "customer_id": 4,
+      "full_name": "Anita Tamang"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 103.01
+      }
+    ]
+  },
+  {
+    "event_id": 118,
+    "event_type": "add_to_cart",
+    "event_time": "2025-05-22T21:41:00Z",
+    "customer": {
+      "customer_id": 48,
+      "full_name": "Rina Adhikari"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 6.11
+      }
+    ]
+  },
+  {
+    "event_id": 119,
+    "event_type": "purchase",
+    "event_time": "2025-07-07T03:25:00Z",
+    "customer": {
+      "customer_id": 22,
+      "full_name": "Rajesh Sharma"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 106.02
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 98.72
+      }
+    ]
+  },
+  {
+    "event_id": 120,
+    "event_type": "purchase",
+    "event_time": "2025-03-02T05:06:00Z",
+    "customer": {
+      "customer_id": 30,
+      "full_name": "Gita Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 96.99
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 20.24
+      }
+    ]
+  },
+  {
+    "event_id": 121,
+    "event_type": "purchase",
+    "event_time": "2025-05-14T15:58:00Z",
+    "customer": {
+      "customer_id": 38,
+      "full_name": "Sarita Rai"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 25.84
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 75.31
+      }
+    ]
+  },
+  {
+    "event_id": 122,
+    "event_type": "add_to_cart",
+    "event_time": "2026-06-22T23:36:00Z",
+    "customer": {
+      "customer_id": 8,
+      "full_name": "Prakash Rai"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 12.28
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 86.03
+      }
+    ]
+  },
+  {
+    "event_id": 123,
+    "event_type": "page_view",
+    "event_time": "2026-01-30T04:53:00Z",
+    "customer": {
+      "customer_id": 43,
+      "full_name": "Maya Sharma"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 54.78
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 44.76
+      }
+    ]
+  },
+  {
+    "event_id": 124,
+    "event_type": "add_to_cart",
+    "event_time": "2025-10-12T01:32:00Z",
+    "customer": {
+      "customer_id": 1,
+      "full_name": "Anita Sharma"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 102.97
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 91.41
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 43.05
+      }
+    ]
+  },
+  {
+    "event_id": 125,
+    "event_type": "page_view",
+    "event_time": "2026-05-26T14:20:00Z",
+    "customer": {
+      "customer_id": 36,
+      "full_name": "Rajesh Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 98.97
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 4,
+        "price": 56.08
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 15.12
+      }
+    ]
+  },
+  {
+    "event_id": 126,
+    "event_type": "purchase",
+    "event_time": "2025-07-31T20:42:00Z",
+    "customer": {
+      "customer_id": 32,
+      "full_name": "Suresh Shrestha"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 51.4
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 99.98
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 3,
+        "price": 107.36
+      }
+    ]
+  },
+  {
+    "event_id": 127,
+    "event_type": "page_view",
+    "event_time": "2026-01-08T22:28:00Z",
+    "customer": {
+      "customer_id": 22,
+      "full_name": "Rajesh Sharma"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 102.1
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 4,
+        "price": 87.42
+      }
+    ]
+  },
+  {
+    "event_id": 128,
+    "event_type": "add_to_cart",
+    "event_time": "2026-02-24T03:16:00Z",
+    "customer": {
+      "customer_id": 7,
+      "full_name": "Aarav Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 44.26
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 85.74
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 61.63
+      }
+    ]
+  },
+  {
+    "event_id": 129,
+    "event_type": "page_view",
+    "event_time": "2025-07-15T22:21:00Z",
+    "customer": {
+      "customer_id": 13,
+      "full_name": "Dipak Poudel"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 57.56
+      }
+    ]
+  },
+  {
+    "event_id": 130,
+    "event_type": "page_view",
+    "event_time": "2026-06-01T04:31:00Z",
+    "customer": {
+      "customer_id": 49,
+      "full_name": "Dipak Gurung"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 93.8
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 80.72
+      }
+    ]
+  },
+  {
+    "event_id": 131,
+    "event_type": "purchase",
+    "event_time": "2025-11-26T16:56:00Z",
+    "customer": {
+      "customer_id": 34,
+      "full_name": "Sunita Karki"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-100",
+        "qty": 4,
+        "price": 101.46
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 84.56
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 16.91
+      }
+    ]
+  },
+  {
+    "event_id": 132,
+    "event_type": "checkout",
+    "event_time": "2026-06-09T09:53:00Z",
+    "customer": {
+      "customer_id": 27,
+      "full_name": "Kamala Poudel"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 3,
+        "price": 50.76
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 57.08
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 52.47
+      }
+    ]
+  },
+  {
+    "event_id": 133,
+    "event_type": "checkout",
+    "event_time": "2025-11-27T22:07:00Z",
+    "customer": {
+      "customer_id": 46,
+      "full_name": "Prakash Poudel"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 28.1
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 3,
+        "price": 83.96
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 62.95
+      }
+    ]
+  },
+  {
+    "event_id": 134,
+    "event_type": "page_view",
+    "event_time": "2026-03-09T00:33:00Z",
+    "customer": {
+      "customer_id": 36,
+      "full_name": "Rajesh Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 82.54
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 3,
+        "price": 105.91
+      }
+    ]
+  },
+  {
+    "event_id": 135,
+    "event_type": "checkout",
+    "event_time": "2025-06-14T09:43:00Z",
+    "customer": {
+      "customer_id": 2,
+      "full_name": "Rajesh Rai"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 82.08
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 3,
+        "price": 91.27
+      }
+    ]
+  },
+  {
+    "event_id": 136,
+    "event_type": "purchase",
+    "event_time": "2025-02-03T11:52:00Z",
+    "customer": {
+      "customer_id": 10,
+      "full_name": "Aarav Tamang"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 91.66
+      }
+    ]
+  },
+  {
+    "event_id": 137,
+    "event_type": "checkout",
+    "event_time": "2026-02-01T13:50:00Z",
+    "customer": {
+      "customer_id": 7,
+      "full_name": "Aarav Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 90.38
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 32.32
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 111.55
+      }
+    ]
+  },
+  {
+    "event_id": 138,
+    "event_type": "checkout",
+    "event_time": "2026-03-30T07:58:00Z",
+    "customer": {
+      "customer_id": 36,
+      "full_name": "Rajesh Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 28.36
+      }
+    ]
+  },
+  {
+    "event_id": 139,
+    "event_type": "page_view",
+    "event_time": "2026-06-11T03:24:00Z",
+    "customer": {
+      "customer_id": 49,
+      "full_name": "Dipak Gurung"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 94.26
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 3,
+        "price": 56.61
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 115.68
+      }
+    ]
+  },
+  {
+    "event_id": 140,
+    "event_type": "add_to_cart",
+    "event_time": "2026-04-23T22:59:00Z",
+    "customer": {
+      "customer_id": 28,
+      "full_name": "Prakash Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 3,
+        "price": 19.96
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 3,
+        "price": 5.65
+      }
+    ]
+  },
+  {
+    "event_id": 141,
+    "event_type": "checkout",
+    "event_time": "2025-11-05T15:50:00Z",
+    "customer": {
+      "customer_id": 3,
+      "full_name": "Maya Gurung"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 93.97
+      }
+    ]
+  },
+  {
+    "event_id": 142,
+    "event_type": "add_to_cart",
+    "event_time": "2026-02-18T02:22:00Z",
+    "customer": {
+      "customer_id": 5,
+      "full_name": "Ram Poudel"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 115.05
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 95.42
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 67.45
+      }
+    ]
+  },
+  {
+    "event_id": 143,
+    "event_type": "add_to_cart",
+    "event_time": "2026-04-02T07:57:00Z",
+    "customer": {
+      "customer_id": 14,
+      "full_name": "Rajesh Sharma"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 46.49
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 119.61
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 81.93
+      }
+    ]
+  },
+  {
+    "event_id": 144,
+    "event_type": "purchase",
+    "event_time": "2026-01-19T16:51:00Z",
+    "customer": {
+      "customer_id": 3,
+      "full_name": "Maya Gurung"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-300",
+        "qty": 4,
+        "price": 110.33
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 4,
+        "price": 34.51
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 109.8
+      }
+    ]
+  },
+  {
+    "event_id": 145,
+    "event_type": "page_view",
+    "event_time": "2025-03-26T03:10:00Z",
+    "customer": {
+      "customer_id": 32,
+      "full_name": "Suresh Shrestha"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 41.84
+      }
+    ]
+  },
+  {
+    "event_id": 146,
+    "event_type": "purchase",
+    "event_time": "2026-03-11T03:13:00Z",
+    "customer": {
+      "customer_id": 41,
+      "full_name": "Sarita Rai"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 104.47
+      }
+    ]
+  },
+  {
+    "event_id": 147,
+    "event_type": "page_view",
+    "event_time": "2025-12-06T01:05:00Z",
+    "customer": {
+      "customer_id": 42,
+      "full_name": "Nabin Sharma"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 57.81
+      }
+    ]
+  },
+  {
+    "event_id": 148,
+    "event_type": "purchase",
+    "event_time": "2025-08-22T08:26:00Z",
+    "customer": {
+      "customer_id": 4,
+      "full_name": "Anita Tamang"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 71.12
+      }
+    ]
+  },
+  {
+    "event_id": 149,
+    "event_type": "page_view",
+    "event_time": "2025-02-16T22:54:00Z",
+    "customer": {
+      "customer_id": 29,
+      "full_name": "Sita Rai"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 41.39
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 66.51
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 91.94
+      }
+    ]
+  },
+  {
+    "event_id": 150,
+    "event_type": "add_to_cart",
+    "event_time": "2025-02-01T15:10:00Z",
+    "customer": {
+      "customer_id": 23,
+      "full_name": "Dipak Tamang"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 95.49
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 37.37
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 50.44
+      }
+    ]
+  },
+  {
+    "event_id": 151,
+    "event_type": "page_view",
+    "event_time": "2025-05-25T03:02:00Z",
+    "customer": {
+      "customer_id": 9,
+      "full_name": "Manoj Poudel"
+    },
+    "line_items": []
+  },
+  {
+    "event_id": 152,
+    "event_type": "checkout",
+    "event_time": "2025-08-15T19:53:00Z",
+    "customer": {
+      "customer_id": 37,
+      "full_name": "Laxmi Gurung"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 40.04
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 52.46
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 23.51
+      }
+    ]
+  },
+  {
+    "event_id": 153,
+    "event_type": "page_view",
+    "event_time": "2026-04-18T20:35:00Z",
+    "customer": {
+      "customer_id": 13,
+      "full_name": "Dipak Poudel"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 102.91
+      }
+    ]
+  },
+  {
+    "event_id": 154,
+    "event_type": "page_view",
+    "event_time": "2025-08-29T03:18:00Z",
+    "customer": {
+      "customer_id": 19,
+      "full_name": "Ram Adhikari"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 16.29
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 114.43
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 82.2
+      }
+    ]
+  },
+  {
+    "event_id": 155,
+    "event_type": "add_to_cart",
+    "event_time": "2026-01-09T10:27:00Z",
+    "customer": {
+      "customer_id": 13,
+      "full_name": "Dipak Poudel"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 42.76
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 70.04
+      }
+    ]
+  },
+  {
+    "event_id": 156,
+    "event_type": "checkout",
+    "event_time": "2025-05-18T21:46:00Z",
+    "customer": {
+      "customer_id": 1,
+      "full_name": "Anita Sharma"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 86.9
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 101.61
+      }
+    ]
+  },
+  {
+    "event_id": 157,
+    "event_type": "add_to_cart",
+    "event_time": "2025-03-25T08:54:00Z",
+    "customer": {
+      "customer_id": 31,
+      "full_name": "Maya Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 94.1
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 25.21
+      }
+    ]
+  },
+  {
+    "event_id": 158,
+    "event_type": "page_view",
+    "event_time": "2025-01-20T16:40:00Z",
+    "customer": {
+      "customer_id": 35,
+      "full_name": "Kamala Rai"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 88.65
+      }
+    ]
+  },
+  {
+    "event_id": 159,
+    "event_type": "add_to_cart",
+    "event_time": "2025-06-02T11:25:00Z",
+    "customer": {
+      "customer_id": 38,
+      "full_name": "Sarita Rai"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 109.22
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 3,
+        "price": 67.5
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 80.2
+      }
+    ]
+  },
+  {
+    "event_id": 160,
+    "event_type": "purchase",
+    "event_time": "2025-06-19T16:08:00Z",
+    "customer": {
+      "customer_id": 50,
+      "full_name": "Rajesh Gurung"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 58.44
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 50.63
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 81.21
+      }
+    ]
+  },
+  {
+    "event_id": 161,
+    "event_type": "add_to_cart",
+    "event_time": "2026-05-11T11:02:00Z",
+    "customer": {
+      "customer_id": 11,
+      "full_name": "Prakash Tamang"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 89.63
+      }
+    ]
+  },
+  {
+    "event_id": 162,
+    "event_type": "purchase",
+    "event_time": "2026-06-15T11:24:00Z",
+    "customer": {
+      "customer_id": 49,
+      "full_name": "Dipak Gurung"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 35.4
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 81.89
+      }
+    ]
+  },
+  {
+    "event_id": 163,
+    "event_type": "checkout",
+    "event_time": "2026-06-18T20:53:00Z",
+    "customer": {
+      "customer_id": 30,
+      "full_name": "Gita Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 16.87
+      }
+    ]
+  },
+  {
+    "event_id": 164,
+    "event_type": "purchase",
+    "event_time": "2025-03-21T16:16:00Z",
+    "customer": {
+      "customer_id": 48,
+      "full_name": "Rina Adhikari"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 48.32
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 72.58
+      }
+    ]
+  },
+  {
+    "event_id": 165,
+    "event_type": "add_to_cart",
+    "event_time": "2025-05-23T14:10:00Z",
+    "customer": {
+      "customer_id": 15,
+      "full_name": "Sunita Adhikari"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 98.98
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 4,
+        "price": 96.16
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 62.71
+      }
+    ]
+  },
+  {
+    "event_id": 166,
+    "event_type": "purchase",
+    "event_time": "2025-12-05T23:07:00Z",
+    "customer": {
+      "customer_id": 5,
+      "full_name": "Ram Poudel"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 22.28
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 3,
+        "price": 74.23
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 52.68
+      }
+    ]
+  },
+  {
+    "event_id": 167,
+    "event_type": "add_to_cart",
+    "event_time": "2025-05-11T18:37:00Z",
+    "customer": {
+      "customer_id": 44,
+      "full_name": "Nabin Adhikari"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 72.94
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 33.02
+      }
+    ]
+  },
+  {
+    "event_id": 168,
+    "event_type": "checkout",
+    "event_time": "2025-01-20T23:46:00Z",
+    "customer": {
+      "customer_id": 9,
+      "full_name": "Manoj Poudel"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 107.44
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 24.13
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 73.93
+      }
+    ]
+  },
+  {
+    "event_id": 169,
+    "event_type": "purchase",
+    "event_time": "2025-06-24T07:53:00Z",
+    "customer": {
+      "customer_id": 6,
+      "full_name": "Puja Sharma"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 104.74
+      }
+    ]
+  },
+  {
+    "event_id": 170,
+    "event_type": "checkout",
+    "event_time": "2026-06-08T08:10:00Z",
+    "customer": {
+      "customer_id": 39,
+      "full_name": "Sunita Basnet"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 76.67
+      }
+    ]
+  },
+  {
+    "event_id": 171,
+    "event_type": "page_view",
+    "event_time": "2025-04-09T05:30:00Z",
+    "customer": {
+      "customer_id": 999,
+      "full_name": "Gita Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 31.43
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 17.49
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 100.05
+      }
+    ]
+  },
+  {
+    "event_id": 172,
+    "event_type": "purchase",
+    "event_time": "2025-02-14T22:33:00Z",
+    "customer": {
+      "customer_id": 35,
+      "full_name": "Kamala Rai"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 60.46
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 108.15
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 47.59
+      }
+    ]
+  },
+  {
+    "event_id": 173,
+    "event_type": "add_to_cart",
+    "event_time": "2025-09-18T15:49:00Z",
+    "customer": {
+      "customer_id": 15,
+      "full_name": "Sunita Adhikari"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 72.74
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 53.93
+      }
+    ]
+  },
+  {
+    "event_id": 174,
+    "event_type": "purchase",
+    "event_time": "2025-05-01T16:00:00Z",
+    "customer": {
+      "customer_id": 6,
+      "full_name": "Puja Sharma"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 34.65
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 71.47
+      }
+    ]
+  },
+  {
+    "event_id": 175,
+    "event_type": "checkout",
+    "event_time": "2025-06-08T13:41:00Z",
+    "customer": {
+      "customer_id": 42,
+      "full_name": "Nabin Sharma"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-300",
+        "qty": 4,
+        "price": 46.66
+      }
+    ]
+  },
+  {
+    "event_id": 176,
+    "event_type": "checkout",
+    "event_time": "2026-05-11T08:19:00Z",
+    "customer": {
+      "customer_id": 17,
+      "full_name": "Bikash Rai"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 75.37
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 52.52
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 25.55
+      }
+    ]
+  },
+  {
+    "event_id": 177,
+    "event_type": "page_view",
+    "event_time": "2026-02-15T10:51:00Z",
+    "customer": {
+      "customer_id": 50,
+      "full_name": "Rajesh Gurung"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": 103.32
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 56.36
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 29.66
+      }
+    ]
+  },
+  {
+    "event_id": 178,
+    "event_type": "page_view",
+    "event_time": "2025-09-27T07:23:00Z",
+    "customer": {
+      "customer_id": 11,
+      "full_name": "Prakash Tamang"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 99.67
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 15.14
+      }
+    ]
+  },
+  {
+    "event_id": 179,
+    "event_type": "page_view",
+    "event_time": "2026-06-18T09:45:00Z",
+    "customer": {
+      "customer_id": 39,
+      "full_name": "Sunita Basnet"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 75.61
+      }
+    ]
+  },
+  {
+    "event_id": 180,
+    "event_type": "page_view",
+    "event_time": "2026-06-15T09:12:00Z",
+    "customer": {
+      "customer_id": 50,
+      "full_name": "Rajesh Gurung"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 6.23
+      }
+    ]
+  },
+  {
+    "event_id": 181,
+    "event_type": "purchase",
+    "event_time": "2025-10-10T12:22:00Z",
+    "customer": {
+      "customer_id": 39,
+      "full_name": "Sunita Basnet"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 75.75
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 32.51
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 2,
+        "price": 14.99
+      }
+    ]
+  },
+  {
+    "event_id": 182,
+    "event_type": "add_to_cart",
+    "event_time": "2025-10-11T07:38:00Z",
+    "customer": {
+      "customer_id": 26,
+      "full_name": "Gita Poudel"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 1,
+        "price": 89.75
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 1,
+        "price": 68.2
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 3,
+        "price": 44.96
+      }
+    ]
+  },
+  {
+    "event_id": 183,
+    "event_type": "page_view",
+    "event_time": "2026-05-31T09:21:00Z",
+    "customer": {
+      "customer_id": 30,
+      "full_name": "Gita Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 35.03
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 69.24
+      }
+    ]
+  },
+  {
+    "event_id": 184,
+    "event_type": "purchase",
+    "event_time": "2025-12-14T14:43:00Z",
+    "customer": {
+      "customer_id": 33,
+      "full_name": "Dipak Karki"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 3,
+        "price": 84.83
+      },
+      {
+        "sku": "SKU-400",
+        "qty": 4,
+        "price": 93.55
+      }
+    ]
+  },
+  {
+    "event_id": 185,
+    "event_type": "add_to_cart",
+    "event_time": "2026-01-27T20:50:00Z",
+    "customer": {
+      "customer_id": 38,
+      "full_name": "Sarita Rai"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 34.65
+      }
+    ]
+  },
+  {
+    "event_id": 186,
+    "event_type": "checkout",
+    "event_time": "2026-02-13T21:47:00Z",
+    "customer": {
+      "customer_id": 44,
+      "full_name": "Nabin Adhikari"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 3,
+        "price": 52.43
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 1,
+        "price": 85.59
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 38.04
+      }
+    ]
+  },
+  {
+    "event_id": 187,
+    "event_type": "checkout",
+    "event_time": "2025-08-29T23:15:00Z",
+    "customer": {
+      "customer_id": 5,
+      "full_name": "Ram Poudel"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 41.1
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 3,
+        "price": 26.02
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 4,
+        "price": 89.77
+      }
+    ]
+  },
+  {
+    "event_id": 188,
+    "event_type": "page_view",
+    "event_time": "2025-12-31T04:49:00Z",
+    "customer": {
+      "customer_id": 14,
+      "full_name": "Rajesh Sharma"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 101.18
+      }
+    ]
+  },
+  {
+    "event_id": 189,
+    "event_type": "checkout",
+    "event_time": "2025-02-13T15:23:00Z",
+    "customer": {
+      "customer_id": 8,
+      "full_name": "Prakash Rai"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 1,
+        "price": 92.89
+      }
+    ]
+  },
+  {
+    "event_id": 190,
+    "event_type": "page_view",
+    "event_time": "2026-03-10T15:34:00Z",
+    "customer": {
+      "customer_id": 32,
+      "full_name": "Suresh Shrestha"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-300",
+        "qty": 4,
+        "price": 26.03
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 3,
+        "price": 50.76
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 11.23
+      }
+    ]
+  },
+  {
+    "event_id": 191,
+    "event_type": "add_to_cart",
+    "event_time": "2025-01-09T00:43:00Z",
+    "customer": {
+      "customer_id": 33,
+      "full_name": "Dipak Karki"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 2,
+        "price": "free"
+      },
+      {
+        "sku": "SKU-100",
+        "qty": 4,
+        "price": 41.3
+      }
+    ]
+  },
+  {
+    "event_id": 192,
+    "event_type": "purchase",
+    "event_time": "2025-12-18T11:11:00Z",
+    "customer": {
+      "customer_id": 25,
+      "full_name": "Ram Tamang"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-100",
+        "qty": 3,
+        "price": 46.58
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 2,
+        "price": 68.08
+      },
+      {
+        "sku": "SKU-200",
+        "qty": 3,
+        "price": 59.2
+      }
+    ]
+  },
+  {
+    "event_id": 193,
+    "event_type": "add_to_cart",
+    "event_time": "2026-02-15T08:28:00Z",
+    "customer": {
+      "customer_id": 28,
+      "full_name": "Prakash Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-400",
+        "qty": 3,
+        "price": 46.98
+      }
+    ]
+  },
+  {
+    "event_id": 194,
+    "event_type": "purchase",
+    "event_time": "2025-10-04T07:35:00Z",
+    "customer": {
+      "customer_id": 37,
+      "full_name": "Laxmi Gurung"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 98.63
+      }
+    ]
+  },
+  {
+    "event_id": 195,
+    "event_type": "purchase",
+    "event_time": "2025-01-10T05:26:00Z",
+    "customer": {
+      "customer_id": 25,
+      "full_name": "Ram Tamang"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 59.39
+      }
+    ]
+  },
+  {
+    "event_id": 196,
+    "event_type": "checkout",
+    "event_time": "2025-06-17T01:13:00Z",
+    "customer": {
+      "customer_id": 9,
+      "full_name": "Manoj Poudel"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 3,
+        "price": 95.31
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 69.65
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 1,
+        "price": 50.82
+      }
+    ]
+  },
+  {
+    "event_id": 197,
+    "event_type": "add_to_cart",
+    "event_time": "2026-02-26T03:22:00Z",
+    "customer": {
+      "customer_id": 31,
+      "full_name": "Maya Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-100",
+        "qty": 4,
+        "price": 90.63
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 46.44
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 3,
+        "price": 44.58
+      }
+    ]
+  },
+  {
+    "event_id": 198,
+    "event_type": "checkout",
+    "event_time": "2026-04-03T02:24:00Z",
+    "customer": {
+      "customer_id": 37,
+      "full_name": "Laxmi Gurung"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-500",
+        "qty": 2,
+        "price": 117.63
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 42.39
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 94.1
+      }
+    ]
+  },
+  {
+    "event_id": 199,
+    "event_type": "checkout",
+    "event_time": "2025-03-15T02:10:00Z",
+    "customer": {
+      "customer_id": 30,
+      "full_name": "Gita Thapa"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-200",
+        "qty": 2,
+        "price": 78.67
+      },
+      {
+        "sku": "SKU-300",
+        "qty": 4,
+        "price": 77.6
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 102.62
+      }
+    ]
+  },
+  {
+    "event_id": 200,
+    "event_type": "purchase",
+    "event_time": "2026-04-01T11:47:00Z",
+    "customer": {
+      "customer_id": 15,
+      "full_name": "Sunita Adhikari"
+    },
+    "line_items": [
+      {
+        "sku": "SKU-300",
+        "qty": 3,
+        "price": 86.7
+      },
+      {
+        "sku": "SKU-500",
+        "qty": 4,
+        "price": 36.19
+      }
+    ]
+  }
+]
